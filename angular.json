@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "matchercatcher"
+    }
+  },
+  "defaultProject": "matchercatcher",
+  "cli": {
+    "analytics": false
+  }
 }

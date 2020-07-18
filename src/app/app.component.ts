@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cardArray } from './data/cat-data.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'matchercatcher';
+
+  cardsArray = cardArray;
+
+  
 }
