@@ -16,4 +16,8 @@ export class AppComponent implements OnInit{
     console.log('what is dees', this.cardsArray);
 
   }
+
+  public catShuffle() {
+    this.ngOnInit();
+  }
 }

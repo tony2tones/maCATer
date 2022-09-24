@@ -1,7 +1,7 @@
 <div class="container">
   <div class="catImage" *ngFor="let cat of cardsArray">
     <img src="/assets/images/{{ cat.img }}"/>
-    <!-- <img src="assets/images/back-min.png" width="49" height="35"/> -->
   </div>
 
 </div>
+<button (click)="catShuffle()">SHUFFLE CATS </button>
