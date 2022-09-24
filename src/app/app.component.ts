@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CatServiceService } from './cat-service.service';
 import { cardArray } from './data/cat-data.component';
 
 @Component({
@@ -11,7 +12,12 @@ export class AppComponent implements OnInit{
 
   cardsArray:any;
 
+  constructor(private catService: CatServiceService) {}
+
   ngOnInit() {
+    this.catService.getCats().subscribe((data) => {
+      console.log(data);
+    })
     this.cardsArray = cardArray.sort(() => 0.5 - Math.random())
     console.log('what is dees', this.cardsArray);
 
