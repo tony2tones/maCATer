@@ -1,9 +1,7 @@
 <div class="container">
-  <div class="grid" *ngFor="let cat of cardsArray">
-    <div>"./data/{{ cat.img }}" {{ cat.img }}</div>
-    <img src ="./assets/{{ cat.img }}" />
-    <img src ="./assets/back.png" />
+  <div class="catImage" *ngFor="let cat of cardsArray">
+    <img src="/assets/images/{{ cat.img }}"/>
   </div>
 
-  <div class="logo"></div>
 </div>
+<button (click)="catShuffle()">SHUFFLE CATS </button>
