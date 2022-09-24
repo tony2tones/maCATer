@@ -1,41 +1,41 @@
 export const cardArray = [{
     name: 'colorCat',
-    img: 'colorCat.png'
+    img: 'colorCat-min.png'
 },
 {
     name: 'colorCat',
-    img: 'colorCat.png'
+    img: 'colorCat-min.png'
 },
 {
     name: 'blackCat',
-    img: 'blackCat.png'
+    img: 'blackCat-min.png'
 },
 {
     name: 'blackCat',
-    img: 'blackCat.png'
+    img: 'blackCat-min.png'
 },
 {
     name: 'whiteCat',
-    img: 'whiteCat.png'
+    img: 'whiteCat-min.png'
 },
 {
     name: 'whiteCat',
-    img: 'whiteCat.png'
+    img: 'whiteCat-min.png'
 },
 {
     name: 'brownCat',
-    img: 'brownCat.png'
+    img: 'brownCat-min.png'
 },
 {
     name: 'brownCat',
-    img: 'brownCat.png'
+    img: 'brownCat-min.png'
 },
 {
     name: 'whiteCatScary',
-    img: 'whiteCatScary.png'
+    img: 'whiteCatScary-min.png'
 },
 {
     name: 'whiteCatScary',
-    img: 'whiteCatScary.png'
+    img: 'whiteCatScary-min.png'
 }
 ]
